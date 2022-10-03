@@ -4,7 +4,7 @@ const Main = (props) => {
     let data = props.maindata;
     const listItem = data.map((item) => {
     return (
-        <div className='card'>
+        <div key = {item.id} className='card' >
             <div className='card-image'>
                 <img src={item.image} alt="" />
                 </div> <div className='card-info'>

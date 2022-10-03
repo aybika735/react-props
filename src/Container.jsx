@@ -6,7 +6,7 @@ const Container = (props) => {
     return (
         <div className='container'>
            <Sidebar/>  
-           <Main maindata={props.data}/>
+           <Main  maindata={props.data}/>
         </div>
     );
 };
